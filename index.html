@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#11120f">
+  <meta name="description" content="Intergalactic builds practical workflow automations for service businesses. Turn scattered requests, follow-ups, and approvals into one clear next step.">
+  <title>Intergalactic | Workflow automation that stays clear</title>
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+  <link rel="preload" href="./assets/fonts/geist-variable.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="./assets/images/workflow-hero.jpg" as="image" fetchpriority="high">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./assets/js/gsap.min.js" defer></script>
+  <script src="./assets/js/ScrollTrigger.min.js" defer></script>
+  <script src="./script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="top">
+    <div class="shell header-inner">
+      <a class="brand" href="#top" aria-label="Intergalactic, home">
+        <svg class="brand-mark" viewBox="0 0 48 48" aria-hidden="true">
+          <rect width="48" height="48" fill="currentColor"/>
+          <path d="M8 8h14v7h-7v18h7v7H8V8Zm32 0H26v7h7v18h-7v7h14V8Z" fill="var(--mark-cut)"/>
+          <rect x="19" y="20" width="10" height="8" fill="var(--mark-cut)"/>
+        </svg>
+        <span class="brand-name">Intergalactic</span>
+      </a>
+
+      <nav class="desktop-nav" aria-label="Main navigation">
+        <a href="#services">Services</a>
+        <a href="#process">How we work</a>
+        <a href="#questions">Questions</a>
+      </nav>
+
+      <a class="nav-cta" href="#contact">Start a workflow</a>
+
+      <details class="mobile-menu">
+        <summary role="button" aria-label="Open navigation menu">Menu</summary>
+        <nav aria-label="Mobile navigation">
+          <a href="#services">Services</a>
+          <a href="#process">How we work</a>
+          <a href="#questions">Questions</a>
+          <a href="#contact">Start a workflow</a>
+        </nav>
+      </details>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <img class="hero-media" src="./assets/images/workflow-hero.jpg" width="1672" height="941" alt="" fetchpriority="high" decoding="async">
+      <div class="hero-wash" aria-hidden="true"></div>
+      <div class="shell hero-inner">
+        <div class="hero-copy">
+          <p class="hero-kicker">Workflow automation for service businesses</p>
+          <h1 id="hero-title"><span>Make every next</span><span>step obvious.</span></h1>
+          <p class="hero-description">Turn scattered requests, follow-ups, and approvals into workflows your team can see and trust.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#contact">Start a workflow</a>
+            <a class="button button-quiet" href="#services">See the system</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="chapter services" id="services" aria-labelledby="services-title">
+      <div class="shell">
+        <div class="section-intro reveal">
+          <h2 id="services-title">A clear system beats a busy memory.</h2>
+          <p>We find the repeated handoff that slows everything else down, then make its next action visible.</p>
+        </div>
+
+        <div class="service-bento" role="list">
+          <article class="service service-feature reveal" role="listitem">
+            <img src="./assets/images/workflow-gate.jpg" width="1122" height="1402" alt="A yellow work order passing through a brushed metal processing gate." loading="lazy" decoding="async">
+            <div class="service-scrim" aria-hidden="true"></div>
+            <div class="service-content">
+              <h3>Incoming requests</h3>
+              <p>Capture the right details, route the work, and make ownership visible from the start.</p>
+            </div>
+          </article>
+
+          <article class="service service-dark reveal" role="listitem">
+            <div class="service-orbit" aria-hidden="true"><span></span><span></span><span></span></div>
+            <div class="service-content">
+              <h3>Follow-ups</h3>
+              <p>Keep quotes, callbacks, and unanswered questions moving without relying on someone to remember.</p>
+            </div>
+          </article>
+
+          <article class="service service-accent reveal" role="listitem">
+            <div class="service-gate" aria-hidden="true"><span></span><span></span></div>
+            <div class="service-content">
+              <h3>Documents and approvals</h3>
+              <p>Check what arrived, flag what is missing, and send it to the person who can decide.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="statement" aria-labelledby="statement-title">
+      <div class="shell statement-inner">
+        <h2 id="statement-title">
+          <span class="scrub-word">Every</span>
+          <span class="scrub-word">handoff</span>
+          <span class="statement-image" aria-hidden="true"><img src="./assets/images/workflow-handoff.jpg" width="2172" height="724" alt="" loading="lazy" decoding="async"></span>
+          <span class="scrub-word">should</span>
+          <span class="scrub-word">show</span>
+          <span class="scrub-word">what</span>
+          <span class="scrub-word">happened,</span>
+          <span class="scrub-word">who</span>
+          <span class="scrub-word">owns</span>
+          <span class="scrub-word">it,</span>
+          <span class="scrub-word">and</span>
+          <span class="scrub-word">what</span>
+          <span class="scrub-word">comes</span>
+          <span class="scrub-word">next.</span>
+        </h2>
+      </div>
+    </section>
+
+    <section class="chapter process" id="process" aria-labelledby="process-title">
+      <div class="shell process-grid">
+        <div class="process-intro">
+          <h2 id="process-title">Build one workflow properly.</h2>
+          <p>Start small enough to understand the exceptions. Test with the people who will use it.</p>
+        </div>
+
+        <div class="process-track">
+          <article class="process-card reveal">
+            <p class="process-verb">Map the work</p>
+            <h3>Walk through the current process.</h3>
+            <p>Show us where a request starts, who touches it, and where it tends to stall.</p>
+          </article>
+          <article class="process-card reveal">
+            <p class="process-verb">Choose the outcome</p>
+            <h3>Define a result everyone can recognize.</h3>
+            <p>We agree on the inputs, exceptions, and the parts your team should still handle.</p>
+          </article>
+          <article class="process-card reveal">
+            <p class="process-verb">Build for reality</p>
+            <h3>Test the usual and unusual cases.</h3>
+            <p>We connect the tools, check edge cases, and keep the next action visible.</p>
+          </article>
+          <article class="process-card reveal">
+            <p class="process-verb">Hand over control</p>
+            <h3>Leave your team able to run it.</h3>
+            <p>You get a clear explanation of the workflow and what to do when it needs attention.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="chapter signals" aria-labelledby="signals-title">
+      <div class="shell signals-shell reveal">
+        <div class="signals-heading">
+          <h2 id="signals-title">You should know, not wonder.</h2>
+          <p>A useful system makes these answers easy to find.</p>
+        </div>
+
+        <div class="signal-carousel" role="region" aria-roledescription="carousel" aria-label="Signs of a clear workflow">
+          <div class="signal-viewport" aria-live="polite">
+            <article class="signal-slide is-active" data-slide="0">
+              <p>“I can see what arrived and what is still missing.”</p>
+            </article>
+            <article class="signal-slide" data-slide="1" hidden>
+              <p>“I know who owns the next move.”</p>
+            </article>
+            <article class="signal-slide" data-slide="2" hidden>
+              <p>“I can handle the exception without guessing.”</p>
+            </article>
+          </div>
+          <div class="carousel-controls">
+            <p class="carousel-count"><span id="current-slide">1</span> / 3</p>
+            <div>
+              <button class="carousel-button" type="button" data-direction="previous">Previous</button>
+              <button class="carousel-button" type="button" data-direction="next">Next</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="chapter questions" id="questions" aria-labelledby="questions-title">
+      <div class="shell">
+        <div class="section-intro reveal">
+          <h2 id="questions-title">The practical questions.</h2>
+          <p>Clear answers before a project starts.</p>
+        </div>
+
+        <div class="question-accordion reveal">
+          <article class="question-panel is-active">
+            <button type="button" aria-expanded="true" aria-controls="answer-tools">Do we replace our current tools?</button>
+            <div class="question-answer" id="answer-tools">
+              <p>We start with what you already use. If a connection is unreliable, we account for that before building.</p>
+            </div>
+          </article>
+          <article class="question-panel">
+            <button type="button" aria-expanded="false" aria-controls="answer-ai">Where does AI fit?</button>
+            <div class="question-answer" id="answer-ai" hidden>
+              <p>AI can read a document or prepare a draft. People still review messages and decisions that require judgment.</p>
+            </div>
+          </article>
+          <article class="question-panel">
+            <button type="button" aria-expanded="false" aria-controls="answer-cost">How is a project priced?</button>
+            <div class="question-answer" id="answer-cost" hidden>
+              <p>After we understand one workflow, you receive a clear scope and quote. Third-party fees are listed separately.</p>
+            </div>
+          </article>
+          <article class="question-panel">
+            <button type="button" aria-expanded="false" aria-controls="answer-handoff">What happens after handoff?</button>
+            <div class="question-answer" id="answer-handoff" hidden>
+              <p>We explain how the workflow runs and where to spot problems. Ongoing changes can be scoped separately.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="chapter contact" id="contact" aria-labelledby="contact-title">
+      <div class="shell contact-shell reveal">
+        <div class="contact-copy">
+          <h2 id="contact-title">Show us the messy version.</h2>
+          <p>An example of a request that got lost is enough to begin.</p>
+        </div>
+        <div class="contact-action">
+          <a class="contact-button" href="mailto:osamaalnusairi321@gmail.com?subject=Intergalactic%20workflow%20inquiry">Start a workflow</a>
+          <a class="email-address" href="mailto:osamaalnusairi321@gmail.com">osamaalnusairi321@gmail.com</a>
+          <p>The button opens your email app.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-inner">
+      <a class="brand footer-brand" href="#top" aria-label="Intergalactic, back to top">
+        <svg class="brand-mark" viewBox="0 0 48 48" aria-hidden="true">
+          <rect width="48" height="48" fill="currentColor"/>
+          <path d="M8 8h14v7h-7v18h7v7H8V8Zm32 0H26v7h7v18h-7v7h14V8Z" fill="var(--mark-cut)"/>
+          <rect x="19" y="20" width="10" height="8" fill="var(--mark-cut)"/>
+        </svg>
+        <span class="brand-name">Intergalactic</span>
+      </a>
+      <p>Norman, Oklahoma<br>Remote projects welcome</p>
+      <a href="mailto:osamaalnusairi321@gmail.com">Email Intergalactic</a>
+    </div>
+  </footer>
+</body>
+</html>
